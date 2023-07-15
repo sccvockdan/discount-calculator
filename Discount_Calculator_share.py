@@ -116,7 +116,7 @@ with tab2:
     """
     )
 
-    st.write("---")
+   
 
 # --- Footer Section ---
 
