@@ -4,7 +4,7 @@ st.set_page_config(page_title="Discount Calculator", page_icon=":abacus:")
 
 # --- Header Section ---
 st.subheader("Burkett Discount Calculator :notebook:")
-st.title("Promo Discount Calculator")
+st.title("Discount Calculator")
 st.info("This is a tool for quickly converting discounts in #/#/# format to the correct multiplier.", icon="ℹ️")
 # st.write("Example use cases: Individual item - promo price validation - MIRP check")
 
