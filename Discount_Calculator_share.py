@@ -15,7 +15,7 @@ with st.expander(label="**:blue[Information]**"):
 - Add your discount without a % sign and press Enter/Return.
 - Your discount multilpier will be **:blue[rounded]** to **:blue[6 decimal places]** as needed.
     - The un-rounded multiplier will also be listed for your reference.
-- You can multiply a List Price by the discount.
+- You can multiply a desired Price by the discount.
     - The result will be **:blue[rounded]** to **:blue[2 decimal]** places.
 
 """
