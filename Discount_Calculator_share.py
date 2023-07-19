@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Discount Calculator", page_icon=":abacus:")
 
 # --- Header Section ---
-st.subheader("Burkett Discount Calculator :notebook:")
+#st.subheader("Burkett Discount Calculator :notebook:")
 st.title("Discount Calculator")
 st.info("This is a tool for quickly converting discounts in #/#/# format to the correct multiplier.", icon="ℹ️")
 # st.write("Example use cases: Individual item - promo price validation - MIRP check")
@@ -78,7 +78,7 @@ with tab2:
     tab2.subheader("Discount Structure Explanation 	:open_book:")
     tab2.write(
     """
-    **:blue[50/10]** is an example of a discount structure. It represents the total percentage discount that Burkett receives on products from a vendor. 
+    **:blue[50/10]** is an example of a discount structure. It represents the total percentage discount received on products from a vendor. 
     - The first number is the first discount received.
     - Each subsequent number represents the additional discount/s received beyond the first discount.  
 
