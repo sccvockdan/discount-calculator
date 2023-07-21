@@ -30,7 +30,7 @@ with tab1:
 
     with column1:
     
-        user_input = st.text_input(label='**Enter your Discount**', placeholder='Example: 50/10/5', help='Make sure the discount aligns with VPD info')
+        user_input = st.text_input(label='**Enter your Discount**', placeholder='Example: 50/10/5', help='Make sure the discount aligns with pricing info')
 
         # list of each individual discount from user
         indiv_disc = user_input.split("/")
@@ -61,7 +61,7 @@ with tab1:
     # --- PYTHON FUNCTIONALITY: DISCOUNT x LIST PRICE ---
 
     with column2:
-        choice = st.selectbox("**Do you want to apply the Discount to a Price?**", ('','Yes', 'No'), help="Check AutoQuotes for the latest active list price")
+        choice = st.selectbox("**Do you want to apply the Discount to a Price?**", ('','Yes', 'No'), help="Confirm the correct latest active price")
         lp_user_input = 0
         if choice == 'Yes':
             lp_user_input = st.number_input(label='**Enter your Price**', step = 0.01)
